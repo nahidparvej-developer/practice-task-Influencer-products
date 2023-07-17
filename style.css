@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ header{
+    background-color: rgb(253, 227, 218);
+    background-image: url(images/Circle\ design.svg );
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    background-position: bottom right;
+    background-size:300px;
+    padding: 50px 100px;
+ }
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.nav-title{
+    color: rgb(42, 59, 73);
+    font-size: 1.5rem;
+}
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(42, 59, 73); 
+    font-size: 1rem;
+}
+
+
+/* end nav  */
+
+
+.banner-head{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner-text{
+  font-size: 2rem;
+}
+.head-title{
+    color: rgb(42, 59, 73);
+}
+.description{
+    color:rgb(87, 36, 36);
+    margin-top: 15px;
+}
+
+.banner-head img{
+    width: 50%;
+}
+
+.btn-primary{
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: rgb(240, 35, 130);
+
+}
+
+
+/* start main section  */
+
+/* start sponse section  */
+main{
+    padding: 50px 100px;
+}
+.sponer-head{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+/* end sponse section  */
+
+
+/* <!-- start Popular Collection  --> */
+
+.collection{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(42, 59, 73);
+}
+
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    margin-top: 50px;
+margin-left: 60px;
+}
+
+.all-collection{
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+
+}
+.all-collection img{
+ padding: 15px 10px;
+ width: 280px;
+}
+
+.col-title{
+   font-size: 2rem;
+   padding: 5px 10px;
+   color: rgb(0, 0, 0);
+   font-weight: 600;
+}
+
+.doller-title{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    color: rgb(42, 59, 73);
+    font-weight: 400;
+ }
+
+.col-description{
+    padding: 5px 10px;
+    color: rgb(42, 59, 73);
+    
+}
+
+
+
+
+
+
+
+/* <!-- end Popular Collection  --> */
