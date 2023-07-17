@@ -91,7 +91,9 @@ main{
 
 
 /* <!-- start Popular Collection  --> */
-
+ .popular-section{
+    padding: 50px 100px;
+ }
 .collection{
     margin-top: 100px;
     text-align: center;
@@ -104,7 +106,7 @@ main{
     grid-template-columns: repeat(3,1fr);
 
     margin-top: 50px;
-margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 .all-collection{
@@ -149,3 +151,45 @@ margin-left: 60px;
 
 
 /* <!-- end Popular Collection  --> */
+
+
+
+
+
+/* media query responsive  */
+
+/* mobile device responsive  */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    nav ,
+    .banner-head ,
+    .sponer-head {
+        flex-direction: column;
+    }
+    nav li{
+        margin-top: 10px;
+    }
+
+    .sponer-head{
+        align-items: center;
+        
+    }
+
+    .sponser-logo{
+        margin-top: 30px;
+    }
+    .popular-collection{
+       
+     grid-template-columns: repeat(1,1fr);
+     
+
+    }
+
+
+  
+
+    
+}
